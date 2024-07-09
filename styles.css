@@ -9,7 +9,8 @@
    body{
     font-family: "Inter", sans-serif;
    }
-   .banner-content{
+   /* banner part css start */
+   .banner-container{
     width: 1318px;
     height: 596px;
     border: 2px solid red;
@@ -18,4 +19,33 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 55px;
+   }
+   .banner-content{
+    width: 913px;
+    height: 532px;
+    border: 2px solid red;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+   }
+   .banner-content img{
+    width: 220px;
+    height: 219px;
+   }
+   .banner-btn{
+    color: white;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 15px 18px 15px 18px;
+   }
+   .banner-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+
    }
