@@ -250,3 +250,76 @@ font-size: 16px;
 .current-target-content-2 p{
     margin-bottom: 10px;
 }
+.support-container{
+    width: 1043px;
+    height: 286px;
+    border: 2px solid red;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    
+}
+.support-content{
+    width: 955px;
+    height: 169px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.support h2{
+    color: white;
+    font-weight: 700;
+}
+.support p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+}
+.overlay{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+.feedback-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 83px;
+}
+
+.feedback-form input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 310px;
+    margin-right: 10px;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.feedback-form{
+
+}
