@@ -382,6 +382,31 @@ font-size: 16px;
     color: white;
     cursor: pointer;
 }
-.feedback-form{
 
+/* footer-part-css-start */
+.footer-container{
+    width:1303px;
+    height: 90px;
+    border: 2px solid green;
+    margin: 0 auto;
+    margin-top: 772px;
+
+}
+ul {
+    list-style: none;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+
+}
+.footer-content{
+    display: flex;
+    padding: 40px 60px;
+    padding: 26px 123px;
+    gap: 642px;
+}
+.social-statement{
+    align-content: center;
 }
