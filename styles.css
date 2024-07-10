@@ -13,7 +13,7 @@
    .banner-container{
     width: 1318px;
     height: 596px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     background-image: url(./assets/Hero-bg.png);
     background-position: center;
@@ -24,7 +24,7 @@
    .banner-content{
     width: 913px;
     height: 532px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 30px auto;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@
     width: 1043px;
     height: 942px;
     padding: 30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-bottom: 55px;
     background-color:#fafafb;
@@ -62,7 +62,7 @@
    .web-development-content{
     width: 892px;
     height: 823px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 25px auto;
     background-color: #fafafb;
    }
@@ -98,7 +98,7 @@
    .left-sec{
     width: 65%;
     height: 128px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +112,7 @@
     .right-sec{
         width: 30%;
         height: 128px;
-        border: 2px solid green;
+        /* border: 2px solid green; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -152,7 +152,7 @@
    .sec-2 .left-sec{
     width: 30%;
     height: 128px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +162,7 @@
    .sec-2 .right-sec{
      width: 65%;
     height: 128px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,7 +190,7 @@
    .my-inspiration{
    width: 1043px;
    height: 709px;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    margin: 0 auto;
 
 }
@@ -246,7 +246,7 @@ font-size: 16px;
 .current-target{
     width: 1043px;
     height: 210px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .current-target-content-2{
 
@@ -315,7 +315,7 @@ font-size: 16px;
 .support-container{
     width: 1043px;
     height: 286px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 55px;
     display: flex;
     align-items: center;
@@ -330,13 +330,14 @@ font-size: 16px;
 .support-content{
     width: 955px;
     height: 169px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
 }
 .support{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 
 
 }
@@ -387,7 +388,7 @@ font-size: 16px;
 .footer-container{
     width:1303px;
     height: 90px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 0 auto;
     margin-top: 772px;
 
