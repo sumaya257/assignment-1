@@ -52,17 +52,24 @@
    /* web-development-part-start */
    .web-development-container{
     width: 1043px;
-    height: 1276px;
+    height: 942px;
     padding: 30px;
     border: 2px solid red;
     margin: 0 auto;
     margin-bottom: 55px;
+    background-color:#fafafb;
    }
    .web-development-content{
     width: 892px;
-    height: 1130px;
+    height: 823px;
     border: 2px solid red;
     margin: 25px auto;
+    background-color: #fafafb;
+   }
+   .web-development-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
    }
   .sec-0 h3{
     margin-bottom: 20px;
@@ -75,14 +82,16 @@
     text-align: center;
    }
    .sec-1{
-    width: 865px;
-    height: 307px;
-    border: 2px solid green;
+    width: 890px;
+    border: 2px solid #fafafb;
     margin: 0 auto;
     display: flex;
     margin-top: 35px;
-    padding: 70px;
+    padding: 39px;
     margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#fafafb;
     
     
    }
@@ -115,6 +124,59 @@
   }
 
   .left-sec-btn{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 700;
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-decoration: none;
+    }
+
+  /* sec-2 */
+  .sec-2{
+    width: 890px;
+    border: 2px solid #fafafb;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 35px;
+    padding: 39px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#fafafb;
+    
+    
+   }
+   .sec-2 .left-sec{
+    width: 30%;
+    height: 128px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+  
+   .sec-2 .right-sec{
+     width: 65%;
+    height: 128px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    align-items: flex-start;
+       
+        
+    }
+    .sec-2 .left-sec img{
+        width: 236px;
+        height: 198px;
+  }
+  .sec-2 .right-sec-btn{
     color: rgb(13, 19, 33);
     font-size: 12px;
     font-weight: 700;
